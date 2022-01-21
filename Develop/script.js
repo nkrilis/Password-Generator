@@ -24,10 +24,10 @@ function generatePassword()
   let passSpecial;
 
   // Criteria strings to create password with
-  let lettersUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-  let lettersLow = "abcdefghijklmnopqrstuvwxyz"
+  let lettersUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let lettersLow = "abcdefghijklmnopqrstuvwxyz";
   let num = "1234567890";
-  let special = " !\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~"
+  let special = " !\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~";
 
   // function to check how many characters the user wants
   function length()
